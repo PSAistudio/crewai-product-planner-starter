@@ -62,6 +62,44 @@ const messages: Record<Lang, Record<string, string>> = {
     'history.loading': '加载中...',
     'history.empty': '该对话暂无历史记录',
     'history.failed': '加载对话历史失败',
+
+    // Lottery — App
+    'lottery.appTitle': '彩票下单平台',
+
+    // Lottery — Type
+    'lottery.type.thai': '泰国乐透',
+    'lottery.type.hanoi': '河内彩票',
+    'lottery.type.viet': '越南彩票',
+
+    // Lottery — Form
+    'lottery.form.typeLabel': '彩票类型',
+    'lottery.form.rowsLabel': '下单列表',
+    'lottery.form.addRow': '添加行',
+    'lottery.form.removeRow': '删除行',
+    'lottery.form.emptyRows': '请点击"添加行"开始下单',
+    'lottery.form.numberLabel': '号码',
+    'lottery.form.amountLabel': '金额',
+    'lottery.form.payoutLabel': '赔付',
+    'lottery.form.digitsPlaceholder': '位数字',
+    'lottery.form.digitsInfo': '位数要求',
+    'lottery.form.oddsInfo': '赔率',
+    'lottery.form.totalAmount': '总金额',
+    'lottery.form.totalPayout': '总赔付',
+    'lottery.form.proceed': '前往支付',
+
+    // Lottery — Payment
+    'lottery.payment.summaryTitle': '订单摘要',
+    'lottery.payment.channelTitle': '支付渠道',
+    'lottery.payment.account': '账号',
+    'lottery.payment.back': '返回修改',
+    'lottery.payment.confirm': '确认提交',
+    'lottery.payment.submitting': '提交中...',
+    'lottery.payment.submitError': '提交失败，请重试',
+
+    // Lottery — Confirm
+    'lottery.confirm.title': '下单成功！',
+    'lottery.confirm.message': '您的彩票订单已成功提交，请等待开奖结果。如有疑问请联系客服。',
+    'lottery.confirm.newOrder': '新建订单',
   },
   en: {
     'status.idle': 'Waiting',
@@ -113,6 +151,44 @@ const messages: Record<Lang, Record<string, string>> = {
     'history.loading': 'Loading...',
     'history.empty': 'This conversation has no history',
     'history.failed': 'Failed to load conversation history',
+
+    // Lottery — App
+    'lottery.appTitle': 'Lottery Ordering Platform',
+
+    // Lottery — Type
+    'lottery.type.thai': 'Thai Lotto',
+    'lottery.type.hanoi': 'Hanoi Lottery',
+    'lottery.type.viet': 'Vietnam Lottery',
+
+    // Lottery — Form
+    'lottery.form.typeLabel': 'Lottery Type',
+    'lottery.form.rowsLabel': 'Order Lines',
+    'lottery.form.addRow': 'Add Row',
+    'lottery.form.removeRow': 'Remove Row',
+    'lottery.form.emptyRows': 'Click "Add Row" to start ordering',
+    'lottery.form.numberLabel': 'Number',
+    'lottery.form.amountLabel': 'Amount',
+    'lottery.form.payoutLabel': 'Payout',
+    'lottery.form.digitsPlaceholder': 'digits',
+    'lottery.form.digitsInfo': 'digits required',
+    'lottery.form.oddsInfo': 'Odds',
+    'lottery.form.totalAmount': 'Total Amount',
+    'lottery.form.totalPayout': 'Total Payout',
+    'lottery.form.proceed': 'Proceed to Payment',
+
+    // Lottery — Payment
+    'lottery.payment.summaryTitle': 'Order Summary',
+    'lottery.payment.channelTitle': 'Payment Channels',
+    'lottery.payment.account': 'Account',
+    'lottery.payment.back': 'Back to Edit',
+    'lottery.payment.confirm': 'Confirm & Submit',
+    'lottery.payment.submitting': 'Submitting...',
+    'lottery.payment.submitError': 'Submission failed, please try again',
+
+    // Lottery — Confirm
+    'lottery.confirm.title': 'Order Submitted!',
+    'lottery.confirm.message': 'Your lottery order has been submitted successfully. Please wait for the draw results. Contact support if you have questions.',
+    'lottery.confirm.newOrder': 'New Order',
   },
 };
 
