@@ -3,5 +3,10 @@
   "outputDirectory": "dist",
   "agents": {
     "framework": "crewai"
+  },
+  "cloudFunctions": {
+    "python": {
+      "runtime": "python3.11"
+    }
   }
 }
